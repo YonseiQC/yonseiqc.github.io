@@ -1,0 +1,135 @@
+// Custom styles for Yonsei Quantum Computing Group
+// Loaded after the theme, so these rules take precedence.
+
+/* ==========================================================================
+   Masthead / Navigation
+   ========================================================================== */
+
+.masthead {
+  background-color: #fff;
+  border-bottom: 2px solid $border-color;
+
+  &__inner-wrap {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+  }
+}
+
+.site-title {
+  font-size: $type-size-4;
+  letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
+   Hero / Splash header
+   ========================================================================== */
+
+.page__hero--overlay {
+  padding: 5em 0;
+  text-align: center;
+
+  .page__title {
+    font-size: $type-size-1;
+    letter-spacing: 0.01em;
+  }
+
+  .page__lead {
+    font-size: $type-size-4;
+    max-width: 640px;
+    margin-inline: auto;
+  }
+}
+
+/* ==========================================================================
+   Page content
+   ========================================================================== */
+
+// Widen the splash layout to use the full content area
+.layout--splash #main {
+  max-width: $x-large;
+}
+
+// Give the body content some breathing room
+.page__content {
+  font-size: 1.05em;
+  line-height: 1.75;
+
+  h2 {
+    margin-top: 2em;
+    font-size: $h-size-1;
+    border-bottom-color: $border-color;
+  }
+
+  h3 {
+    margin-top: 1.5em;
+    font-size: $h-size-2;
+  }
+
+  p {
+    max-width: 72ch; // comfortable reading width
+  }
+}
+
+// Belief / intro paragraph on the homepage
+.splash__intro {
+  margin: 2em auto;
+  max-width: 72ch;
+  font-size: $type-size-4;
+  line-height: 1.7;
+  text-align: center;
+  color: $dark-gray;
+}
+
+/* ==========================================================================
+   Section headings
+   ========================================================================== */
+
+.section-title {
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  font-size: $h-size-1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $primary-color;
+}
+
+/* ==========================================================================
+   Feature rows (Research Areas)
+   ========================================================================== */
+
+.feature__wrapper {
+  margin-bottom: 3em;
+
+  .feature__item {
+    text-align: center;
+
+    .archive__item-title {
+      font-size: $h-size-2;
+      margin-top: 0.75em;
+    }
+
+    .archive__item-excerpt {
+      font-size: $type-size-6;
+      line-height: 1.65;
+      color: $muted-text-color;
+    }
+  }
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.page__footer {
+  margin-top: 3em;
+  border-top: 2px solid $border-color;
+  font-size: $type-size-7;
+  color: $muted-text-color;
+
+  footer {
+    max-width: $x-large;
+    margin-inline: auto;
+    padding: 1.5em 1em;
+  }
+}

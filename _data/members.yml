@@ -1,0 +1,37 @@
+# Members of the Yonsei Quantum Computing Group
+# role must be one of: Professor, Postdoc, PhD Student, MS Student, Undergraduate
+# photo: path relative to site root, e.g. /assets/images/members/name.jpg
+#         leave blank to show a placeholder
+
+- name: "Chae-Yeun Park"
+  role: "Professor"
+  photo: ""
+  interests:
+  email: "chae-yeun@yonsei.ac.kr"
+  website: "https://chaeyeunpark.me"
+  github: ""
+
+- name: "Joonsuk Jung"
+  role: "PhD Student"
+  photo: ""
+  interests:
+    - Quantum Error Correction
+  email: "alice.kim (at) yonsei.ac.kr"
+
+- name: "Jiwon Choi"
+  role: "PhD Student"
+  photo: ""
+  interests:
+    - Quantum Machine Learning
+  email: "w@yonsei.ac.kr"
+  website: ""
+  github: ""
+
+- name: "Namkyu Kang"
+  role: "PhD Student"
+  photo: ""
+  interests:
+    - Quantum Information Theory
+  email: "carol.jeong@yonsei.ac.kr"
+  website: ""
+  github: ""

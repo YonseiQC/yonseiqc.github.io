@@ -20,7 +20,10 @@ research_areas:
     excerpt: "We study the computational complexity and simulation of strongly correlated quantum many-body systems using both analytical and numerical methods."
 ---
 
-We believe quantum computing represents one of the most profound shifts in the history of computation. Our group is driven by the conviction that building reliable, large-scale quantum computers requires advances across all layers — from the physical understanding of many-body quantum systems, to the design of algorithms that unlock quantum advantage, to the fault-tolerant architectures that make it all practical. We pursue foundational research at the intersection of these challenges, with the goal of turning the promise of quantum computing into reality.
+<p style="margin-left: 5em; margin-right: 5em">
+The capability of quantum computer is not truly understood yet. <br >
+We develop theories to realize quantum advantage with near-term and fault-tolerant quantum computers.
+</p>
 
 ## Research Areas
 
