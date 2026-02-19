@@ -31,7 +31,8 @@ github_username:  yonseiqc
 # Build settings
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-plugins: []
+plugins: ["jekyll-include-cache"]
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 atom_feed:
   hide: true
 
